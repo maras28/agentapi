@@ -2,3 +2,10 @@ POST http://localhost:8000/chat
 Content-Type: application/json
 
 {"message": "Seattle'da kalabileceğimi oteller nelerdir?"}
+
+
+####################
+POST https://maras-openai-sweden.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-10-21
+Content-Type: application/json
+
+{"messages":[{"role":"user","content":"Seattle'da kalabileceğimi oteller nelerdir?"}]}
