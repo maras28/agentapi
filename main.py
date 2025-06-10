@@ -9,7 +9,6 @@ from azure.ai.agents import AgentsClient
 
 project_endpoint = os.environ["PROJECT_ENDPOINT"]
 model_deployment_name = os.environ["MODEL_DEPLOYMENT_NAME"]
-azure_ai_conn_id = os.environ["AZURE_AI_CONNECTION_ID"]
 agent_id = os.environ["AZURE_AI_AGENT_ID"]
 
 app = FastAPI(title="Chat API")
