@@ -1,0 +1,8 @@
+# Environment variables
+# Add your environment variables below
+# Example:
+# API_KEY=your_api_key_here
+# DATABASE_URL=your_database_url_here
+PROJECT_ENDPOINT=""
+MODEL_DEPLOYMENT_NAME=""
+AZURE_AI_AGENT_ID=""
