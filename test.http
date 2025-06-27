@@ -1,4 +1,22 @@
 POST http://localhost:8000/chat
 Content-Type: application/json
 
-{"message": "Seattle'da kalabileceğimi oteller nelerdir?"}
+{"message": "I need hotels in Seattle"}
+
+
+##############
+POST https://maras-agentapi.azurewebsites.net/chat
+Content-Type: application/json
+THREAD_ID: thread_QoImgWfIcDfbzLUzdQVgiPEo
+
+
+
+{"message": "New York'da kalabileceğimi oteller nelerdir?"}
+
+#########################
+POST http://togg-genai.germanywestcentral.cloudapp.azure.com/staging/api/api/v1/chat_response/streaming
+Content-Type: application/json
+
+{"question": "New York'da otel lazım?"}
+
+
